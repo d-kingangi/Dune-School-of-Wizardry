@@ -1,8 +1,12 @@
-/README.MD
+
 /112.sql
 /BRC20-TXs.sql
 /CeloEvmWallets.sql
+/eth-successful-txs.sql
+/EvmWalletsGoerli.sql
 /goodDollarsReleased.sql
 /ordinalsInscription.sql
 /PolygonzkEvmDeposits.sql
-/zkEvmdepositsperchain.sql
+/wallet-interaction.sql
+/zkEvmdepositsperchain.
+/
