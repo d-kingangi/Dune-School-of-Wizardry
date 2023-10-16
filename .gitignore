@@ -11,6 +11,9 @@
 /ordinalsInscription.sql
 /PolygonzkEvmDeposits.sql
 /READEME.md
+/solana-acc-highest-token-balance-change-with-time-frame.sql
+/solana-net-token-balance-change.sql
+/solana-sum-vote-nonvote-txs-per-hour-30-days.sql
 /tx-size-pattern-bitcoin.sql
 /txs-clustered-bitcoin.sql
 /wallet-interaction.sql
