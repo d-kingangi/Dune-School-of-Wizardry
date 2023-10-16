@@ -1,6 +1,6 @@
 /* bitcoin ordinal inscriptions */
-
 /* truncate the block_time column to the day level, group transactions by day.*/
+
 SELECT date_trunc('day', block_time) AS DATE
     /*find the count of rows/transactions for each truncated date, to represent daily inscriptions.*/
 	,count(*) AS Daily_Inscriptions
