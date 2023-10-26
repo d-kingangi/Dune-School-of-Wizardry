@@ -1,4 +1,4 @@
-/* query to find cUSD held by Mento*/
+-- query to find cUSD held by Mento
 
 with
 

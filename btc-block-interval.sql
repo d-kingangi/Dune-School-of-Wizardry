@@ -1,4 +1,4 @@
-/* query to find time intervals between consecutive blocks on bitcoin network */
+-- query to find time intervals between consecutive blocks on bitcoin network 
 
 WITH block_intervals AS (
   SELECT

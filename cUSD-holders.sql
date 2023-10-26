@@ -1,4 +1,4 @@
-/* query to find cUSD token holders */
+-- query to find cUSD token holders 
 
 with transfers as (
    select "to" as account, cast(amount as int256) as amount from compound_v2_ethereum.cErc20_evt_Transfer where contract_address = 0x39aa39c021dfbae8fac545936693ac917d5e7563

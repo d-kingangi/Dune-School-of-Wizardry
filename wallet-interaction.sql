@@ -1,4 +1,4 @@
-/*Identify patterns of interaction between addresses, sender-to-receiver relationship*/
+-- Identify patterns of interaction between addresses, sender-to-receiver relationship
 
  SELECT
   "from" AS Sender,
@@ -7,5 +7,5 @@
 FROM ethereum.transactions
 GROUP BY "from", "to"
 HAVING COUNT(*) > 50 
-/*Adjust the threshold for defining interaction*/
+-- Adjust the threshold for defining interaction 
 ORDER BY TransactionCount DESC;
