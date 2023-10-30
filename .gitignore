@@ -9,6 +9,7 @@
 /EvmWalletsGoerli.sql
 /goodDollarsReleased.sql
 /longest-consecutive-btc.sql
+/ordinalsInscriptions.sql
 /PolygonzkEvmDeposits.sql
 /READEME.md
 /solana-acc-highest-token-balance-change-with-time-frame.sql
@@ -19,4 +20,5 @@
 /txs-clustered-bitcoin.sql
 /users-bridge-zkEVM-polygon.sql
 /wallet-interactions.sql
+/zkEVM-deposits-by-token.sql
 /zkEvmdepositsperchain.
