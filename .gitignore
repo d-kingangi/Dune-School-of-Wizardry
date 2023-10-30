@@ -1,5 +1,9 @@
 
 /112.sql
+/BRC20-TXs.sql
+/btc-block-interval.sql
+/CeloEvmWallets.sql
+/cUSD-holders.sql
 /eth-successful-txs.sql
 /eth-tx-flow-pattern.sql
 /EvmWalletsGoerli.sql
@@ -13,4 +17,5 @@
 /solana-sum-vote-nonvote-txs-per-hour-30-days.sql
 /tx-size-pattern-bitcoin.sql
 /txs-clustered-bitcoin.sql
+/wallet-interactions.sql
 /zkEvmdepositsperchain.
