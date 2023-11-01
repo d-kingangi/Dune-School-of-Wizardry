@@ -8,6 +8,7 @@
 /eth-tx-flow-pattern.sql
 /EvmWalletsGoerli.sql
 /goodDollarsReleased.sql
+/Lido-depositers.sql
 /longest-consecutive-btc.sql
 /ordinalsInscriptions.sql
 /PolygonzkEvmDeposits.sql
