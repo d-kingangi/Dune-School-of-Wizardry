@@ -1,4 +1,4 @@
---query to find total ETH stored in Gnosis Safe
+--query to find total ETH stored in Gnosis Safe weekly
 
 WITH
   per_week AS (
