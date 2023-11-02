@@ -9,6 +9,7 @@
 /eth-successful-txs.sql
 /eth-tx-flow-pattern.sql
 /EvmWalletsGoerli.sql
+/foundation-top-10-creator-earnings.sql
 /gnosis-safe-eth-stored.sql
 /gnosis-safe-eth-txs.sql
 /goodDollarsReleased.sql
