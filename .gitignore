@@ -22,6 +22,7 @@
 /solana-net-token-balance-change.sql
 /solana-rewards.sql
 /solana-sum-vote-nonvote-txs-per-hour-30-days.sql
+/taproot-utilization.sql
 /total-staked-eth-lido.sql
 /tx-size-pattern-bitcoin.sql
 /txs-clustered-bitcoin.sql
