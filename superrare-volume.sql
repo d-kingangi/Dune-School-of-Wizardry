@@ -1,4 +1,4 @@
---query to find active creators on superrare
+--query to find trade volume on superrare
 --superrare: nft marketplace
 
 WITH artists AS
