@@ -17,6 +17,7 @@
 /longest-consecutive-btc.sql
 /ordinalsInscriptions.sql
 /PolygonzkEvmDeposits.sql
+/README.md
 /solana-acc-highest-token-balance-change-with-time-frame.sql
 /solana-net-token-balance-change.sql
 /solana-rewards.sql
@@ -26,5 +27,6 @@
 /txs-clustered-bitcoin.sql
 /users-bridge-zkEVM-polygon.sql
 /wallet-interactions.sql
+zk-bridge-stat.sql
 /zkEVM-deposits-by-token.sql
-/zkEvmdepositsperchain.
+/zkEvmdepositsperchain.sql
