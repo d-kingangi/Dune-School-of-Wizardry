@@ -1,5 +1,5 @@
-/* total Gooddollar tokens released by contract */
-/* 0x62B8B11039FcfE5aB0C56E502b1C372A3d2a9c7A */
+--total Gooddollar tokens released by contract
+--gooddollar contract adsdress 0x62B8B11039FcfE5aB0C56E502b1C372A3d2a9c7A
 
 SELECT
   block_time,
