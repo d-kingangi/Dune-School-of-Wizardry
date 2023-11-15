@@ -17,11 +17,13 @@
 /longest-consecutive-btc.sql
 /ordinalsInscriptions.sql
 /PolygonzkEvmDeposits.sql
-
+/README.md
 /solana-acc-highest-token-balance-change-with-time-frame.sql
 /solana-net-token-balance-change.sql
 /solana-rewards.sql
 /solana-sum-vote-nonvote-txs-per-hour-30-days.sql
+/superrare-total-artwork-value.sql
+/superrare-volume.sql
 /taproot-utilization.sql
 /taproot-util-as-percentage.sql
 /total-staked-eth-lido.sql
@@ -29,6 +31,6 @@
 /txs-clustered-bitcoin.sql
 /users-bridge-zkEVM-polygon.sql
 /wallet-interactions.sql
-zk-bridge-stat.sql
+/zk-bridge-stat.sql
 /zkEVM-deposits-by-token.sql
 /zkEvmdepositsperchain.sql
