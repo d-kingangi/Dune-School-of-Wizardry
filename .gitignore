@@ -10,6 +10,7 @@
 /eth-tx-flow-pattern.sql
 /EvmWalletsGoerli.sql
 /foundation-top-10-creator-earnings.sql
+/foundation.sql
 /gnosis-safe-eth-stored.sql
 /gnosis-safe-eth-txs.sql
 /goodDollarsReleased.sql
@@ -18,6 +19,7 @@
 /ordinalsInscriptions.sql
 /PolygonzkEvmDeposits.sql
 /README.md
+/sablier-cancelled-streams.sql
 /sablier-mainnet-multisig-txs.sql
 /sablier-streams-created-every-month.sql
 /solana-acc-highest-token-balance-change-with-time-frame.sql
