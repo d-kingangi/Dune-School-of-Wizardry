@@ -11,6 +11,7 @@
 /EvmWalletsGoerli.sql
 /foundation-top-10-creator-earnings.sql
 /foundation.sql
+/foundation-total-usd.sql
 /gnosis-safe-eth-stored.sql
 /gnosis-safe-eth-txs.sql
 /goodDollarsReleased.sql
