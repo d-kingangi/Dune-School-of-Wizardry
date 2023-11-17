@@ -9,6 +9,8 @@
 /eth-successful-txs.sql
 /eth-tx-flow-pattern.sql
 /EvmWalletsGoerli.sql
+/foundation-buyer.sql
+/foundation-monthly-stats.sql
 /foundation-nft-collection-comparison.sql
 /foundation-top-10-creator-earnings.sql
 /foundation.sql
