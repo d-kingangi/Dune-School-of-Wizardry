@@ -1,5 +1,6 @@
 --Grassroots on Celo
 --TokenUniqueSymbolIndex contract
+--total unique tokens traded
 
 SELECT
 COUNT(_token) as Tokens
