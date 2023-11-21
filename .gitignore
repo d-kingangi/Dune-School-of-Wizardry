@@ -8,6 +8,7 @@
 /cUSD-Mento-reserve.sql
 /eth-successful-txs.sql
 /eth-tx-flow-pattern.sql
+/EURe-transfer-chain-comparison.sql
 /EvmWalletsGoerli.sql
 /foundation-buyer.sql
 /foundation-monthly-stats.sql
