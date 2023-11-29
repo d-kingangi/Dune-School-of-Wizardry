@@ -44,6 +44,7 @@
 /total-staked-eth-lido.sql
 /tx-size-pattern-bitcoin.sql
 /txs-clustered-bitcoin.sql
+/uniswap-stats-ethereum-chain.sql
 /users-bridge-zkEVM-polygon.sql
 /wallet-interactions.sql
 /zk-bridge-stat.sql
