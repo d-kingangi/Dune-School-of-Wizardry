@@ -24,6 +24,7 @@
 /grassroots-total-tokens-traded.sql
 /Lido-depositers.sql
 /longest-consecutive-btc.sql
+/opensea-blockchain-stats.sql
 /opensea-stats.sql
 /opensea-collection-stats.sql
 /opensea-stats-2.sql
