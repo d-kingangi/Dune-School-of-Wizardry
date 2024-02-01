@@ -6,6 +6,8 @@
 /btc-block-interval.sql
 /CeloEvmWallets.sql
 /cross-chain-solana.sql
+/CEXES-on-EVM.sql
+/cross-chain-solana.sql
 /cUSD-holders.sql
 /cUSD-Mento-reserve.sql
 /eth-successful-txs.sql
