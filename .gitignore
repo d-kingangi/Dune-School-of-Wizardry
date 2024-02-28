@@ -26,6 +26,8 @@
 /goodDollarsReleased.sql
 /grassroots-total-tokens-traded.sql
 /ice-airdrop-amount-receivers.sql
+/ICE-Token-address-transferFrom-func.sql
+/JUP-Token-holders.sql
 /Lido-depositers.sql
 /longest-consecutive-btc.sql
 /opensea-blockchain-stats.sql
