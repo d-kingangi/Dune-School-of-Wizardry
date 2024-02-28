@@ -1,4 +1,4 @@
---top addresses withe the most value sent to the Spankchain HumanStandardToken Address
+--top addresses with the most value sent to the Spankchain HumanStandardToken Address
 
 SELECT
   _from AS address,
