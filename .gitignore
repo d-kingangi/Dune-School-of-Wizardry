@@ -14,7 +14,7 @@
 /eth-tx-flow-pattern.sql
 /EURe-transfer-chain-comparison.sql
 /EvmWalletsGoerli.sql
-/foundation-buyer.sql
+/foundation-buyers.sql
 /foundation-monthly-stats.sql
 /foundation-monthly-stats-2.sql
 /foundation-nft-collection-comparison.sql
@@ -29,6 +29,7 @@
 /ICE-Token-address-transferFrom-func.sql
 /JUP-Token-holders.sql
 /Lido-depositers.sql
+/linea-daily-users.sql
 /longest-consecutive-btc.sql
 /opensea-blockchain-stats.sql
 /opensea-stats.sql
@@ -44,6 +45,12 @@
 /solana-net-token-balance-change.sql
 /solana-rewards.sql
 /solana-sum-vote-nonvote-txs-per-hour-30-days.sql
+/spankchain_HumanStandardToken_addresses_with_most_value_to.sql
+/Spankchain_HumanStandardToken_Contract_address_top_address_with_value_from_the_token_contract.sql
+/spankchain-address-total-interaction.sql
+/Spankchain-HumenStandardToken-Contract-to-and-from-value.sql
+/spankchain-inflow-outflow.sql
+/spankchain-interacted-addresses.sql
 /superrare-total-artwork-value.sql
 /superrare-volume.sql
 /taproot-utilization.sql
