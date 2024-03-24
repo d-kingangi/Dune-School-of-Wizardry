@@ -31,6 +31,12 @@
 /Lido-depositers.sql
 /linea-daily-users.sql
 /longest-consecutive-btc.sql
+/magic-eden-collection-stats.sql
+/magic-eden-highest-receiver-wallets-amount.sql
+/magic-eden-highest-receiver-wallets.sql
+/magic-eden-mints-on-polygon.sql
+/magic-eden-mints-on-solana-vs-polygon.sql
+/magic-eden-mints-on-solana.sql
 /opensea-blockchain-stats.sql
 /opensea-stats.sql
 /opensea-collection-stats.sql
