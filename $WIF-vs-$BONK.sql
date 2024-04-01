@@ -1,0 +1,12 @@
+
+--memecoin battle between $WIF and $BONK
+
+SELECT *, 'WIF' AS token
+FROM query_3497208 --WIF
+WHERE day >= CURRENT_DATE - INTERVAL '180' DAY
+
+UNION ALL
+
+SELECT *, 'BONK' AS token
+FROM query_3362725 --BONK
+WHERE day >= CURRENT_DATE - INTERVAL '180' DAY
