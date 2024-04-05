@@ -16,14 +16,14 @@ FROM
     FROM
       solana.transactions
     WHERE
-      block_date > CAST('2023-11-20' AS DATE) /* Date when BONK was first created */
+      block_date > CAST('2023-11-20' AS DATE) 
       AND CONTAINS(
         account_keys,
         'Vote111111111111111111111111111111111111111'
-      ) = FALSE /* exclude voting transactions to make the query faster */
+      ) = FALSE 
       AND CONTAINS(
         account_keys,
-        'EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm' /* bonk mint address */
+        'EKpQGSJtjMFqKZ9KQanSqYXRcF8fBopzLHYxdM65zcjm' /* $BONK mint address */
       ) = TRUE
       AND success = TRUE
   )
