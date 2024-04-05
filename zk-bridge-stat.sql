@@ -7,7 +7,7 @@ SELECT
   COUNT(DISTINCT "from") AS users_all_time,
   SUM(value / CAST(1e18 AS DOUBLE)) AS total_all_time
 FROM
-  ethereum."transactions"
+  ethereum.transactions
 WHERE
   (
     "to" = 0xaBEA9132b05A70803a4E85094fD0e1800777fBEF -- contract address for zkSync Lite Bridge
