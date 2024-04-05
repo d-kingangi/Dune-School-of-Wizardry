@@ -1,5 +1,5 @@
 -- total cancelled streams for the Sablier Protocol
--- for Polygon, Ethereum, Arbitrum
+-- for Polygon, Ethereum, Arbitrum chains
 
 
 SELECT
