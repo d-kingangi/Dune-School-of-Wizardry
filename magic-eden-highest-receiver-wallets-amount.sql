@@ -20,8 +20,8 @@ LIMIT
   30
 
 --   wallet_address
+-- total_received_amount in usd
 
--- total_received_amount
 -- 0xdef1c0ded9bec7f1a1670819833240f027b25eff
 -- 8846182.58840918
 -- 0x5ebc127fae83ed5bdd91fc6a5f5767e259df5642

@@ -16,13 +16,13 @@ FROM
     CollectionItems
 ORDER BY
     items_count DESC
-LIMIT 40;
+LIMIT 40;  --set limit for project collection items
 
--- collection
 
 -- items_count
-
 -- total_amount_received
+-- collection
+
 -- 675395419
 -- 9273340.222905293
 -- Okay Dog Artifacts
