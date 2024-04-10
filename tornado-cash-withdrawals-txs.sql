@@ -1,4 +1,4 @@
--- tornado cash deposit txs
+-- tornado vash withdrawals txs 
 
 WITH blockchain AS (
     SELECT distinct bc_name AS filter
@@ -49,10 +49,9 @@ WITH blockchain AS (
     )
 
 SELECT date_trunc('week', block_time) AS time
-, COUNT(*) AS deposits
-FROM tornado_cash.deposits
+, COUNT(*) AS withdrawals
+FROM tornado_cash.withdrawals
 WHERE blockchain IN (SELECT filter FROM blockchain)
 AND currency_symbol IN (SELECT filter FROM tokens)
 AND block_time < date_trunc('week', NOW())
 GROUP BY 1
-
