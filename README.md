@@ -9,6 +9,7 @@ Dune is a web-based platform that allows you to query public blockchain data and
 ![alt text](<Dencun Upgrade.png>)
 ![alt text](<Solana-Memecoins.png>)
 ![alt text](<foundation copy.png>)
+![alt text](<Tornado-Cash.png>)
 ![alt text](<Magic Eden.jpeg>)
 ![alt text](<$DEGEN.png>)
 ![alt text](<solana.png>)
