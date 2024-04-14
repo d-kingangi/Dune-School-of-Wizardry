@@ -1,2 +1,2 @@
 ---find and compare the number of active addresses on the main Layer 2
---Celo, Polygon, optimism, polygon, arbitrum, base
+--Celo, Polygon, optimism, arbitrum, base

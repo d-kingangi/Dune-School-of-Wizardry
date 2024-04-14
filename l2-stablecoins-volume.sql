@@ -1,2 +1,2 @@
 --find the volume of stablecoins within the layer 2 networks
---Celo, Polygon, optimism, polygon, arbitrum, base
+--Celo, Polygon, optimism, arbitrum, base
