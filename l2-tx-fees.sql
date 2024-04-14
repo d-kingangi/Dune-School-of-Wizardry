@@ -1,0 +1,2 @@
+--compare the transction fees across the major layer2 networks
+--Celo, Polygon, optimism, arbitrum, base
