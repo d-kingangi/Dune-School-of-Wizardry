@@ -1,2 +1,0 @@
---find and compare the daily transaction volume within the major layer 2 neetworks
---Celo, Polygon, optimism, arbitrum, base
