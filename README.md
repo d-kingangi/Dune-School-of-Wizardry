@@ -5,16 +5,15 @@ Dune is a web-based platform that allows you to query public blockchain data and
 
  https://dune.com/cxnsxnsxs
 
-
-![alt text](<Dencun Upgrade.png>)
-![alt text](<Solana-Memecoins.png>)
 ![alt text](<Layer 2s Comparison.png>)
-![alt text](<foundation copy.png>)
-![alt text](<Tornado-Cash.png>)
-![alt text](<Magic Eden.jpeg>)
+![alt text](brc-20s.png)
 ![alt text](<$DEGEN.png>)
-![alt text](<solana.png>)
+![alt text](<Dencun Upgrade.png>)
 ![alt text](<BASE.png>)
+![alt text](<Tornado-Cash.png>)
+![alt text](<Solana-Memecoins.png>)
+![alt text](<solana.png>)
+![alt text](<Magic Eden.jpeg>)
 ![alt text](<uniswap.png>)
 ![alt text](<superrare.png>)
 ![alt text](<foundation.png>)
