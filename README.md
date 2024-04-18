@@ -6,6 +6,7 @@ Dune is a web-based platform that allows you to query public blockchain data and
  https://dune.com/cxnsxnsxs
 
 ![alt text](<Layer 2s Comparison.png>)
+![alt text](<Rarible NFT Market.png>)
 ![alt text](brc-20s.png)
 ![alt text](<$DEGEN.png>)
 ![alt text](<Dencun Upgrade.png>)
