@@ -1,0 +1,65 @@
+--tope reveivers of the Gitcoin donations on both blockchain i.e Ethereum  and Polygon
+-- recipient
+-- total_donation_amount
+
+WITH recipient_donations AS (
+  SELECT
+    recipient,
+    SUM(amount_raw / 1e18) AS total_amount_raw
+  FROM gitcoin.donations
+  GROUP BY
+    recipient
+)
+SELECT
+  recipient,
+  SUM(total_amount_raw) AS total_donation_amount
+FROM recipient_donations
+GROUP BY
+  recipient
+ORDER BY
+  total_donation_amount DESC
+LIMIT 20
+
+-- recipient
+-- total_donation_amount
+
+-- 0x10d6d2e343281d388291a3e02f3293aaeda67178
+-- 88892923.79901959
+-- 0x4090eaa71aaae6a57b88fecdc5d8984598adc0d6
+-- 88888888
+-- 0x90dfc35e747ffcf9631ce75348f99632528e1704
+-- 26023950.045124415
+-- 0x8110d1d04ac316fdcace8f24fd60c86b810ab15a
+-- 25918682.595810406
+-- 0xe25d4ddf0bf2777269900115087597f28017c897
+-- 25889827.17184101
+-- 0xf80cd14ec747b2adf7b1a9911b38c65a885daeea
+-- 25889563.5731948
+-- 0x264902ce3200dba13b83a168d563497d2d347b53
+-- 25888317.39398527
+-- 0xde21f729137c5af1b01d73af1dc21effa2b8a0d6
+-- 15498425.117654223
+-- 0x20d08e58952bb70ff0ec1271085ca969c14be2a3
+-- 1269139.7695210031
+-- 0x37133cda1941449cde7128f0c964c228f94844a8
+-- 1240677.6286230746
+-- 0xcce1f6f4ceb0f046cf57fe8e1c409fc47afe6aab
+-- 1240003.8110999998
+-- 0x097b7feb64d0b272efc3092f833b0e18bd4d1521
+-- 237964.95288010762
+-- 0xe5b5514e0618f4b55736c0c0c78ccd6f8ac14631
+-- 233903.8839757361
+-- 0x693f321c9861047505f4a922931569f5af2cc6f2
+-- 196833.01676
+-- 0xd25a803e24ffd3c0033547be04d8c43ffba7486b
+-- 156675.4795373734
+-- 0x00de4b13153673bcae2616b67bf822500d325fc3
+-- 82006.29971634208
+-- 0x683a78ba1f6b25e29fbbc9cd1bfa29a51520de84
+-- 78829.90500081559
+-- 0x7dac9fc15c1db4379d75a6e3f330ae849dffce18
+-- 62144.96425552291
+-- 0x5b6bcdbb5278616f818775b9a20f220262fd6e9b
+-- 56376.66016292534
+-- 0x1f7b953113f4dfcbf56a1688529cc812865840e1
+-- 52022.2649521205
