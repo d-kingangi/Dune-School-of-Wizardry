@@ -1,6 +1,4 @@
 
-
--- Final query to get daily averages in both their original units and converted to USD 
 WITH daily_prices AS (
   SELECT
     DATE_TRUNC('day', minute) AS date,
