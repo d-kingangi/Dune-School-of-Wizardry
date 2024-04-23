@@ -1,0 +1,1 @@
+SELECT * FROM immortalx_celo.perpetual_trades
