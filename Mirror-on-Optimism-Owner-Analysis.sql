@@ -1,0 +1,124 @@
+-- owner
+-- total_edition_address
+-- total_price_earned
+-- total_limit
+
+SELECT 
+    owner,
+    COUNT(DISTINCT edition_address) AS total_edition_address, 
+    SUM(CAST(price AS DECIMAL) / 1e18) AS total_price_earned, 
+    SUM(CAST(limit AS DECIMAL)) AS total_limit 
+FROM 
+    mirror_optimism.edition_metadata
+GROUP BY 
+    owner
+ORDER BY 
+    total_price_earned DESC
+LIMIT 
+    40;
+
+
+-- owner
+-- total_edition_address
+-- total_price_earned
+-- total_limit
+0x63f68acaa76fbd579bfb5a52c65a0c4b4e536a88
+2
+17.2
+500
+0x4e6b051aa672663d44be3f9fd3a3178bfd1d3cb7
+2
+17.1
+500
+0x6cab818daaf4040476e2489a7ed29ca685ad0623
+2
+16
+0
+0xbd12b682c9d0d406e090ad56091cbe728e18c760
+1
+15.22
+0
+0xf9e50be1334698545b6199ee0eeac17a5d5576a7
+1
+15.1
+0
+0xdb6f15ee57be8ba628f645a02a1548971059a1b2
+1
+15
+0
+0xece8c85efb870635d046a39c4ce84e1bd8c668a1
+1
+15
+0
+0xac1c4bed1c7c71fd3afde11e2bd4f18d969c843d
+7
+7
+8
+0xf15968a096fc8f47650001585d23bee819b5affb
+1
+2.22
+22
+0xa1ae8b58afe9c1f1b42a5b8e51430f422735584c
+1
+2.2
+500
+0xb7cd3d52dd98e23337e2f85a8ea707e700d98b8c
+1
+2.2
+500
+0xa1841222ace15587958f80670be378ffd8a2683e
+1
+2.2
+500
+0x3514ba749d7d718a96033d2576d6c106dfffd5cb
+1
+2.1
+500
+0x76e13ba561a04088617a3125eb9fdfe6bb170fc6
+1
+2.1
+500
+0xd65464f2c600e0135a232bd0d30e3be57f5844af
+1
+2
+50
+0x0cff56fd246e455a8b19359241c4329b08893b33
+1
+2
+100
+0x67a0adbf0849067200d0346926762e4efb417125
+1
+1.98
+500
+0x2c93110efae04bca88295f033eef0b5a4673020f
+13
+1.375
+1700
+0xe19b703dfe83430651c8f6e30187bd689873a9e2
+2
+1.01
+110
+0x996b71019f5d391cce1297a81a0c99a2caaac515
+1
+1
+10
+0xddf5c7996a031712bcdb898a35f3c5dffa7d120c
+1
+1
+0
+0x855831206633b543d1f559c91a50e5fd37ba9987
+1
+1
+10
+0x3d2a0db933c31311d67b756348a69ceed35b9299
+1
+1
+100
+0x0463338e8c84bac59e991ab09f8ca2618a826192
+1
+0.96
+1
+0x5f7842abc1db2bb9184238772446ffbe9bf59af8
+1
+0.95
+3
