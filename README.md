@@ -14,6 +14,7 @@ Dune is a web-based platform that allows you to query public blockchain data and
 ![alt text](<Dencun Upgrade.png>)
 ![alt text](<CELO.png>)
 ![alt text](<ImmortalX Perpetual Tardes.png>)
+![alt text](<Kusama - Canary Network.png>)
 <!-- [View More Dashboards Here. ](https://dune.com/browse/dashboards?user=cxnsxnsxs) -->
 ![alt text](<BASE.png>)
 ![alt text](<Tornado-Cash.png>)
