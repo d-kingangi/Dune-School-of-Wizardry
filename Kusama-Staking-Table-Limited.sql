@@ -1,0 +1,497 @@
+year
+
+-- month
+
+-- section
+
+-- storage
+
+-- block_number
+
+-- ts
+
+-- era
+
+-- address_ss58
+
+-- address_pubkey
+
+-- block_hash
+
+-- submitted_in
+
+-- suppressed
+
+-- validator_total
+
+-- validator_own
+
+-- validator_commission
+
+-- validator_reward_shares
+
+-- validator_reward_points
+
+-- validator_staking_rewards
+
+-- total_staked
+
+-- total_reward_points
+
+-- total_staking_rewards
+
+-- nominationpools_id
+
+-- nominationpools_total
+
+-- nominationpools_member_cnt
+
+-- nominationpools_commission
+
+-- nominationpools_rewardpools
+
+-- member_bonded
+
+-- member_unbonded
+
+-- member_share
+
+-- targets
+
+-- pv
+
+-- track
+
+-- updated_at
+
+-- ingested_at
+
+SELECT * FROM kusama.stakings h ORDER BY h.ingested_at DESC LIMIT 100
+
+
+
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+DfyEZGsAcuQ7zMxvPzrLmc6RtJAb2ryKcXV2KadVuErj4HR
+0x308b6d29a780f3a39c2ffe7e74dedc8dad21cfb015b6a66d0e07d2c0601f8341
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+138
+0.00166666665
+0
+4.598594182037335e-7
+{"lastRecordedRewardCounter":"145941484173857756","points":0.00166666665,"poolId":138,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+F8rcDDU26Ycy1buvsU3W9xdiZUipnvGqsJnmLBJHtJUddUP
+0x7148fa7e22e15519bceb99c9202b3308634a03488ae2f8c3e0944b4a9f116a92
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+131
+33041.61185541022
+0
+0.539385333767122
+{"lastRecordedRewardCounter":"157806961654657331","points":33041.61185541022,"poolId":131,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+HZYmbn3pxYBn3ToBjwuVUaFMQi6niNQyj9omAh3qkMTZVHo
+0xdc968833712966f427bec29b6c114151928ea0f1dd32ed27dd6a1134a0a72c24
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+82
+30.829250369809
+0
+0.004005317362224904
+{"lastRecordedRewardCounter":"32337245278357951","points":30.829250369809,"poolId":82,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+DmKcE4izpUw5kRNThXEsLG6a8gpK7h8QLpnyogXT9uR1Tcm
+0x34a03cb1f07f01dd96e2516d3931ea78b0424a222528f1d890e7e0ec4d4f5c06
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+160
+0.12
+0
+0.0000313167443422388
+{"lastRecordedRewardCounter":"94147263090868581","points":0.12,"poolId":160,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+CrGTiJe9Ud6BL6jPcqKPWUvFT8oiMwfAv3JHmZwzHrZnSJV
+0x0c29a33dc1b30381034f55693fc12755366254bc42ef3717643c5c62d2550d49
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+15
+47.468712841527
+0
+0.0012336246081017734
+{"lastRecordedRewardCounter":"162759888473480815","points":47.468712841527,"poolId":15,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+JES3eW7zEdhJLsizASAGe4E93JKXtKr3tyLBxendm1qD3Lp
+0xfa3e78564343de365dd3bd7d8013d7a12603ed803ef56257a233e10c7aaf1b3c
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+123
+108.482069212683
+0
+0.05040118860069589
+{"lastRecordedRewardCounter":"175111894478323709","points":108.482069212683,"poolId":123,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+D4U3xakhDspR42JKJgfWHdtvSsFzofonVRJXestvLrXfs99
+0x15779975907a23b69724b4379a01e7424e579890b619388774d9991081027f51
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+1
+1
+0
+0.000028150359957356697
+{"lastRecordedRewardCounter":"138129832992931476","points":1,"poolId":1,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+HWVb9EXrfYw9uz1kyemyhH1QuofjCWseNpa7oxe6vpR9jqg
+0xda421707d9874675e6c3cdf3de7fe92ddcd4bdf6ff3f00b16c4a67213d1f8765
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+137
+5.1
+0
+0.0016256464410502275
+{"lastRecordedRewardCounter":"142735441020299167","points":5.1,"poolId":137,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+JBi2gjFCnHdeiqFFdsG1VN2VnNntRMQPhuhej8yurteFBSE
+0xf82a89f1958ce1601648efd82b032d78c1af9b6b981823cdd777845e3de9e15e
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+15
+66.5
+0
+0.0017282127853907264
+{"lastRecordedRewardCounter":"112290127125147056","points":66.5,"poolId":15,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+GWZhVkiCbUQDHtjnAhNof3XrBu2hDtomNSgA3t4D7BTPXnF
+0xae13b0c380aea344346158d0771e4102f9e4d926b3c5c955c1dc07fbe9cec73a
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+160
+0.389148382505
+0
+0.00010155717005087367
+{"lastRecordedRewardCounter":"81863038942433946","points":0.389148382505,"poolId":160,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+JCCLjBCwYr4ruD1cQRT9jTRo7dgVohe7ar4B2VrmFxR7BTP
+0xf889d7a8087639059b95b1b3de84c8f80361fb2309a7497388b6ded2e815d766
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+2
+72.176157881784
+0
+0.006026504070573055
+{"lastRecordedRewardCounter":"247130247402177753","points":72.176157881784,"poolId":2,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+Drdd2yW7BQf8svw3UNXqXgeZXYbSDXksGZs5R7UF1B7HvTF
+0x38ad1abd95c332cbc9487f4521e46eec9c4a6ea8c8b762428828aef88f51cc30
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+8
+10.7
+0
+0.0010283596083078576
+{"lastRecordedRewardCounter":"240811582827350007","points":10.7,"poolId":8,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+CtPeaiv11p9MZZsybUcftF8SYVF4JHPequhh316AkMR93cM
+0x0dc852cba5190a73284ef25e301fc37438054192e29939d228e11bb141979ed6
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+2
+19.6698
+0
+0.0016423724017218062
+{"lastRecordedRewardCounter":"132277474761826538","points":19.6698,"poolId":2,"unbondingEras":[{"amount":0,"era":"5534"}]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+DN3mgW4b2HgLbngfB1dL7qcXNV6tbdqenRSdMYosmP3u2Qn
+0x22e047e289f5f9d1e58f7c507bf1f9cbfbcb2c2f9e8700dbbad11ba14e66a27a
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+138
+1.1
+0
+0.00030350721904953633
+{"lastRecordedRewardCounter":"149361703369035979","points":1.1,"poolId":138,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+DpQ4jmuSnKn7AQb7q7af8cErNvEMnQHZ2njVSrmEV67nx9t
+0x36f8fa2e087dedc0cb11f268b4b83a18eec3f36c5301bada2a8dacafbf145b4a
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+166
+1.20545171579
+0
+0.057820585898013296
+{"lastRecordedRewardCounter":"81564194128954484","points":1.20545171579,"poolId":166,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+EVcBtuKJrtwoKxPuYXy4vUyjKo5ZKum4RkVQ3p9iMjJaBoM
+0x54e05bea8a1fa50b9d27e67565f46a829ee6424a8ee1630f844bf8fad0a9530b
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+53
+43.523594406566
+0
+0.023121442767309697
+{"lastRecordedRewardCounter":"222871278612742712","points":43.523594406566,"poolId":53,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+HNXYNzFUbpFpamUpwLaknGepq4B5LhpNUWUE4cz62tNwtc4
+0xd42eb2efe47dd6c0d5587693d706b6ff988e1fb289c21afb1099c3eede2ea543
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+137
+0.00166666665
+0
+5.312570015665893e-7
+{"lastRecordedRewardCounter":"124906812897588056","points":0.00166666665,"poolId":137,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+D7cFUsxj8boKjjjKigR6XBSnuc7shqDdCn2Utvv6ScSMMAD
+0x17dcef503229542c2957a96c59852f2bfc0c5eb147c12af1e4ef1faa60ef3c75
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+18
+1740.092589103383
+0
+0.24816426776863826
+{"lastRecordedRewardCounter":"253051218905807338","points":1740.092589103383,"poolId":18,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+HEWGnmtHvc4omyTHBgMT6EJzk81WUxEsVw4TJFyMEAxZFBt
+0xce1076f074bbfb57b79afad0f4f5e662bff31f938af6bb6e782e19a095d9001d
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+75
+0.07281720108
+0
+0.0001889271396749847
+{"lastRecordedRewardCounter":"131798162682532062","points":0.07281720108,"poolId":75,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+DzhGzca89MZeJoSndqHwyk5QEZ8UziemGydtVZKz9D1mUWS
+0x3ed35ea6f2825a22602ebca32409e815165af5c3255510be1e1ab92043fc7b63
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+82
+306.010385129013
+0
+0.03975668217280623
+{"lastRecordedRewardCounter":"231518949727440974","points":306.010385129013,"poolId":82,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+DKEqZuZPkjfKh1Thu22hRaBnqyAeKua1V2WpHZgJHDcTuqf
+0x20bbcca896433acfa197b51195836d13fe9295a6a30c8f40d09f70456541b762
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+55
+1.167595187622
+0
+0.0010912622135350197
+{"lastRecordedRewardCounter":"84092889612263426","points":1.167595187622,"poolId":55,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+JCR6keoCM9hwKB1SFrc5V98wiJV7trWDJqge8hLH4AmuR7Y
+0xf8b4cb1122db7864167da8d7a4e1e2b10b492c16fc1f08a14a35e5fd534e0547
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+1
+240.138824782107
+0
+0.006759994357352921
+{"lastRecordedRewardCounter":"264424210549761494","points":240.138824782107,"poolId":1,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+CizYA9FW8TakrMMwUfA9M5pccKJb594ETRAAoDSkXDoZrVo
+0x069d5129c73873761458399b4354e42ef045733fa85099964cc56c7ace2c460c
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+15
+18.892472863118
+0
+0.0004909806488674869
+{"lastRecordedRewardCounter":"154521976902902341","points":18.892472863118,"poolId":15,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+CdevXxuVfnXaXBQ1fds2Ztf5RUQHUz8sJ6b9DNBkebHNVNX
+0x028b100f09153e2991fd725ba30ef6f44ed557726d06f6a541ec810f6963af4d
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+18
+1.7106
+0
+0.00024395816584896185
+{"lastRecordedRewardCounter":"88831776580772763","points":1.7106,"poolId":18,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
+2024
+4
+NominationPools
+PoolMembers
+22938697
+2024-04-28 17:27
+6555
+EPGFTz3ar2gnHWrsipGgt9w81U1AJ6mdBGVpeoqkHd98rTE
+0x5009c4915ba1653888f7f27dced05ea7b6e3994f92973b6832860758de5ce423
+0x894391ae2c700e83cf8ea3b64edda5d36f36dc2433fb3e25657deb5708a0743e
+80
+2
+0
+0.000059249496527553205
+{"lastRecordedRewardCounter":"202444157376490826","points":2,"poolId":80,"unbondingEras":[]}
+2024-04-29 05:40
+2024-04-29 06:17
