@@ -1,5 +1,15 @@
 -- 1290413603081.8623 USD Volume
 
+-- tables: pancakeswap_v3_bnb.amm_trades, 
+--         pancakeswap_v3_ethereum.amm_trades
+--         pancakeswap_v3_arbitrum.amm_trades
+--         pancakeswap_v3_base.amm_trades
+--         pancakeswap_v2_bnb.amm_trades
+--         pancakeswap_v2_ethereum.amm_trades
+--         pancakeswap_v2_arbitrum.amm_trades
+--         pancakeswap_v2_base.amm_trades
+--         pancakeswap.trades
+
 SELECT
   SUM(amount_usd) AS total_amount_usd
 FROM

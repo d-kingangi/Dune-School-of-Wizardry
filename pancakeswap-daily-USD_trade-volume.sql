@@ -1,4 +1,12 @@
-
+-- tables: pancakeswap_v3_bnb.amm_trades, 
+--         pancakeswap_v3_ethereum.amm_trades
+--         pancakeswap_v3_arbitrum.amm_trades
+--         pancakeswap_v3_base.amm_trades
+--         pancakeswap_v2_bnb.amm_trades
+--         pancakeswap_v2_ethereum.amm_trades
+--         pancakeswap_v2_arbitrum.amm_trades
+--         pancakeswap_v2_base.amm_trades
+--         pancakeswap.trades
 
 SELECT
   block_date,
