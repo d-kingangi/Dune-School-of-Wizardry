@@ -17,6 +17,7 @@ Dune is a web-based platform that allows you to query public blockchain data and
 ![alt text](<Dencun Upgrade.png>)
 ![alt text](<Layer 2s Comparison.png>)
 ![alt text](pancakeswap.png)
+![alt text](Cryptopunks.png)
 ![alt text](<CELO.png>)
 ![alt text](<BASE.png>)
 ![alt text](<Tornado-Cash.png>)
@@ -27,7 +28,7 @@ Dune is a web-based platform that allows you to query public blockchain data and
 [View More Dashboards Here. ](https://dune.com/browse/dashboards?user=cxnsxnsxs) -->
 ![alt text](<solana.png>)
 ![alt text](<Magic Eden.jpeg>)
-![alt text](<uniswap.png>)
-![alt text](<superrare.png>)
+<!-- ![alt text](<uniswap.png>) -->
+<!-- ![alt text](<superrare.png>) -->
 ![alt text](<foundation.png>)
-![alt text](<monerium.eur.png>)
+<!-- ![alt text](<monerium.eur.png>) -->
