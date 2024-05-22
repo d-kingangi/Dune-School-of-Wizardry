@@ -1,0 +1,149 @@
+-- block_date
+-- token_pair
+-- daily_amount_usd
+-- daily_transaction_count
+
+WITH
+  daily_token_pairs AS (
+    SELECT
+      block_date,
+      token_pair,
+      SUM(amount_usd) AS daily_amount_usd,
+      COUNT(*) AS daily_transaction_count
+    FROM
+      curvefi.trades
+    GROUP BY
+      block_date,
+      token_pair
+  ),
+  ranked_token_pairs AS (
+    SELECT
+      block_date,
+      token_pair,
+      daily_amount_usd,
+      daily_transaction_count,
+      RANK() OVER (
+        PARTITION BY
+          block_date
+        ORDER BY
+          daily_amount_usd DESC
+      ) AS rank
+    FROM
+      daily_token_pairs
+  )
+SELECT
+  block_date,
+  token_pair,
+  daily_amount_usd,
+  daily_transaction_count
+FROM
+  ranked_token_pairs
+WHERE
+  rank <= 5
+ORDER BY
+  block_date,
+  rank;
+
+
+
+
+2020-02-10
+DAI-USDT
+2.006381794379516
+2
+2020-02-11
+DAI-USDC
+14717.10547182979
+6
+2020-02-11
+cDAI-USDT
+2347.4566802972454
+3
+2020-02-11
+cUSDC-USDT
+1880.1950133220842
+1
+2020-02-11
+USDC-USDT
+65.929643056258
+5
+2020-02-11
+DAI-USDT
+0.9310106609741755
+3
+2020-02-12
+DAI-USDT
+118736.4108491549
+33
+2020-02-12
+DAI-USDC
+59162.58039541227
+10
+2020-02-12
+USDC-USDT
+31076.591317694452
+11
+2020-02-13
+DAI-USDT
+298657.7992488499
+38
+2020-02-13
+DAI-USDC
+58748.300355667365
+8
+2020-02-13
+USDC-USDT
+32862.772073368025
+10
+2020-02-14
+DAI-USDC
+503427.7235865813
+50
+2020-02-14
+DAI-USDT
+280675.4278935088
+41
+2020-02-14
+USDC-USDT
+121352.10987390413
+14
+2020-02-14
+cDAI-USDT
+1588.281791019466
+1
+2020-02-15
+DAI-USDT
+393547.5346062484
+43
+2020-02-15
+DAI-USDC
+251152.8279340675
+32
+2020-02-15
+USDC-USDT
+112550.84387934195
+10
+2020-02-16
+DAI-USDC
+190587.3125365099
+23
+2020-02-16
+DAI-USDT
+113586.12336300156
+22
+2020-02-16
+USDC-USDT
+112541.5967593426
+6
+2020-02-16
+cDAI-USDT
+437.41073812602605
+1
+2020-02-17
+DAI-USDT
+198523.1286572582
+19
+2020-02-17
+DAI-USDC
+190042.97606228522
+31
