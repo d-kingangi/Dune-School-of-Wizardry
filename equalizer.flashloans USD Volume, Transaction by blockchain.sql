@@ -1,0 +1,241 @@
+-- blockchain
+-- month
+-- total_amount_usd
+-- total_transactions
+
+SELECT
+  blockchain,
+  DATE_TRUNC('month', block_time) AS month,
+  SUM(amount_usd) AS total_amount_usd,
+  COUNT(tx_hash) AS total_transactions
+FROM
+  (
+    SELECT
+      *
+    FROM
+      equalizer_optimism.flashloans
+    UNION ALL
+    SELECT
+      *
+    FROM
+      equalizer_polygon.flashloans
+    UNION ALL
+    SELECT
+      *
+    FROM
+      equalizer_ethereum.flashloans
+    UNION ALL
+    SELECT
+      *
+    FROM
+      equalizer_bnb.flashloans
+    UNION ALL
+    SELECT
+      *
+    FROM
+      equalizer.flashloans
+  ) AS combined_flashloans
+GROUP BY
+  blockchain,
+  DATE_TRUNC('month', block_time)
+ORDER BY
+  blockchain,
+  month;
+
+
+  ethereum
+2022-12-01 00:00
+2.5609200000000002e-15
+2
+ethereum
+2024-02-01 00:00
+46221.2
+2
+optimism
+2024-02-01 00:00
+60037.761192000005
+2
+ethereum
+2022-01-01 00:00
+373253.0155809426
+4
+ethereum
+2023-01-01 00:00
+6.154720000000001e-15
+4
+ethereum
+2023-07-01 00:00
+40282.997856
+4
+polygon
+2022-09-01 00:00
+9722.155536
+4
+polygon
+2022-12-01 00:00
+40032.020000000004
+4
+ethereum
+2021-08-01 00:00
+6
+ethereum
+2022-05-01 00:00
+50319.72015926542
+6
+optimism
+2023-05-01 00:00
+45000.8536
+6
+ethereum
+2023-04-01 00:00
+133773.76886399998
+8
+optimism
+2022-09-01 00:00
+4403.821336
+8
+optimism
+2023-11-01 00:00
+32343.417922000004
+8
+optimism
+2023-12-01 00:00
+12780.570528
+8
+ethereum
+2023-05-01 00:00
+48451.426898277845
+10
+optimism
+2024-01-01 00:00
+125462.29926000001
+10
+polygon
+2023-03-01 00:00
+80149.5502
+10
+ethereum
+2024-01-01 00:00
+87661.640472
+12
+ethereum
+2022-06-01 00:00
+120404.45854743099
+14
+ethereum
+2023-06-01 00:00
+88082.46602279482
+14
+ethereum
+2023-11-01 00:00
+131032.316842
+14
+polygon
+2022-11-01 00:00
+40001.869127754006
+14
+polygon
+2023-04-01 00:00
+108899.62782
+14
+bnb
+2024-05-01 00:00
+16
+
+ethereum
+2021-10-01 00:00
+63596.840000000004
+16
+ethereum
+2024-04-01 00:00
+16
+polygon
+2023-01-01 00:00
+4203.186699779624
+16
+bnb
+2023-02-01 00:00
+7147.65736267252
+18
+ethereum
+2021-12-01 00:00
+1164671.5870461974
+18
+ethereum
+2023-08-01 00:00
+167099.034938
+18
+ethereum
+2023-10-01 00:00
+90967.76589087673
+18
+optimism
+2023-04-01 00:00
+312782.403286
+20
+ethereum
+2022-04-01 00:00
+346732.24529932596
+22
+ethereum
+2024-03-01 00:00
+109576.6
+22
+polygon
+2024-03-01 00:00
+23536.933692000002
+22
+ethereum
+2022-02-01 00:00
+1234795.914611857
+24
+polygon
+2023-06-01 00:00
+113259.26666000001
+24
+polygon
+2023-11-01 00:00
+158669.217238
+24
+ethereum
+2023-12-01 00:00
+243352.98859000002
+26
+polygon
+2022-08-01 00:00
+42948.616605999996
+26
+polygon
+2022-10-01 00:00
+60234.059220452415
+26
+ethereum
+2022-03-01 00:00
+1220322.928475352
+28
+polygon
+2024-04-01 00:00
+30
+ethereum
+2024-05-01 00:00
+34
+bnb
+2022-10-01 00:00
+65076.19853992626
+38
+bnb
+2024-02-01 00:00
+202912.96444957092
+38
+polygon
+2023-08-01 00:00
+176324.76007954532
+38
+polygon
+2023-09-01 00:00
+147275.092824
+38
+bnb
+2023-07-01 00:00
+277008.15912865475
+40
