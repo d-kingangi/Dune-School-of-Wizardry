@@ -1,6 +1,6 @@
-block_date
-token
-daily_total_amount_usd
+-- block_date
+-- token
+-- daily_total_amount_usd
 
 WITH
   token_totals AS (
