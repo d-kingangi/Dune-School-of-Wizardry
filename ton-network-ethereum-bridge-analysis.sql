@@ -1,6 +1,5 @@
-day
-
-total_transfers
+-- day
+-- total_transfers
 
 SELECT
   DATE_TRUNC('week', evt_block_time) AS day,
