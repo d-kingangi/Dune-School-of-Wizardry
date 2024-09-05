@@ -1,6 +1,6 @@
 # Dune-School-of-Wizardry(dune.com) 
 
-Dune is a web-based platform that allows you to query public blockchain data and aggregate it into custom beautiful dashboards, charts using plain SQL.
+Dune SQL is a custom built, Trino based query engine that is optimized for blockchain data.
  
 
  https://dune.com/cxnsxnsxs
